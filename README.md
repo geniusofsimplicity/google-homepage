@@ -1,2 +1,2 @@
-# google-homepage
-Tutorial project.
+Title: google-homepage
+Tutorial project from theodinproject.com.
