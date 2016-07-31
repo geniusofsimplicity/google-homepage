@@ -1,0 +1,177 @@
+@import url("reset.css");
+
+#viewport{
+	position: absolute;
+	top: 0;
+	width: 100%;
+	display: block;
+	min-width: 980px;
+	margin: 0 auto;
+}
+
+#user_icon{
+	border-radius: 16px;
+	width: 32px; height: 32px;
+	margin-left: 5px;
+}
+#toolbar{
+	float: right;
+	display: flex;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 18px;
+	align-items: center;
+	justify-content: center;
+}
+
+
+#google_notifications{
+	width: 20px; height: 20px;
+	border-radius: 50%;
+	overflow: hidden;
+	margin-right: 15px;	
+	margin-left: 15px;
+}
+
+#google_apps_icon{
+	margin-right: 15px;	
+	margin-left: 15px;
+	opacity: .55;
+}
+.links{
+	color: #000;
+	text-decoration: none;
+	font-size: 13px;
+	line-height: 24px;
+	vertical-align: middle;
+	opacity: .75;
+	display: inline-block;
+	font-family: arial, sans-serif;
+	white-space: nowrap;
+	text-align: right;
+	padding-right: 15px;
+}
+#logo_line{
+	position: relative;
+}
+#google_logo{
+	background: url(../images/googlelogo.png);
+	background-repeat: no-repeat;
+	background-size: 272px 92px;
+	height: 92px;
+	width: 272px;
+	margin-top: 198px;
+	position: absolute;
+	left: 50%;
+	margin-right: -50%;
+	transform: translate(-50%, -50%);
+}
+#google_logo div{
+	color: #4285f4;
+	font: 16px/16px roboto-regular, arial, sans-serif;
+	left: 215px;
+	position: relative;
+	top: 76px;
+	white-space: nowrap;
+}
+#search_form{
+	max-width: 484px;
+	vertical-align: top;	
+	margin-top: 280px;
+	margin-left: auto;	
+	margin-right: auto;
+}
+#input_line{	
+	border: 1px solid #d9d9d9;
+	height: 38px;
+	width: 484px;
+	display: flex;
+	float: right;
+	align-items: center;
+	line-height: 0;	
+}
+#input{
+	border: none;
+	height: 100%;
+	width: 100%;
+	-webkit-box-sizing: border-box;
+	padding: 5px 9px 0;
+	outline: none;
+	font: 16px arial,sans-serif;
+	line-height: 30px !important;
+	height: 30px !important;
+	text-align: start;
+	word-spacing: normal;
+	letter-spacing: normal;
+}
+#voice_input{
+	padding: 0 8px;
+	background: url(../images/voice_input_icon.png);
+	background-repeat: no-repeat;
+	background-size: 24px 24px;
+	height: 23px;
+	width: 17px;
+	vertical-align: middle;	
+}
+#buttons_line{
+	padding-top: 18px;	
+}
+#buttons_line center input{
+	color: #757575;
+	height: 36px;
+	line-height: 27px;
+	font-family: arial, sans-serif;
+	font-size: 13px;
+	margin: 36px 4px;
+	min-width: 54px;
+	
+	text-align: center;
+	background-color: #f2f2f2;
+	border: 1px solid #f2f2f2;
+	border-radius: 2px;
+	font-weight: bold;
+	background-image: -webkit-linear-gradient(top, #f5f5f5, #f1f1f1);
+}
+#link_to_german{
+	display: inline-block;
+	line-height: 28px;
+	font-size: small;
+	text-align: -webkit-center;
+	font-family: arial, sans-serif;
+}
+#fbar{
+	position: absolute;
+	bottom: 0;
+	line-height: 40px;
+	background: #f2f2f2;
+	height: 35px;
+	width: 100%;
+	margin: 0 auto;
+	
+	min-width: 980px;
+}
+#adv_bus_about{
+	margin-left: 30px;	
+}
+#adv_bus_about a{
+		
+}
+#pri_terms_settings{
+	font-size: small;
+	margin-right: 30px;
+	float: right;
+}
+#pri_terms_settings a{
+	
+}
+.footer_links{
+	color: #666;
+	text-decoration: none;
+	font-size: small;
+	padding-left: 27px;
+	margin: 0 !important;
+	font-family: arial, sans-serif;
+}
+a{
+	color: #1a0dab;
+}
